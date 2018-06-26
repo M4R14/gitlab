@@ -1,0 +1,43 @@
+W, [2018-06-26T05:11:12.293591 #865]  WARN -- : #<Unicorn::HttpServer:0x00007ff8a2aec688>: worker (pid: 865) exceeds memory limit (532073984.0 bytes > 531329244 bytes)
+W, [2018-06-26T05:11:12.294987 #865]  WARN -- : Unicorn::WorkerKiller send SIGQUIT (pid: 865) alive: 5995 sec (trial 1)
+I, [2018-06-26T05:11:13.449561 #581]  INFO -- : reaped #<Process::Status: pid 865 exit 0> worker=1
+I, [2018-06-26T05:11:15.273841 #14637]  INFO -- : worker=1 ready
+W, [2018-06-26T05:21:31.558427 #14637]  WARN -- : #<Unicorn::HttpServer:0x00007ff8a2aec688>: worker (pid: 14637) exceeds memory limit (514739712.0 bytes > 485310337 bytes)
+W, [2018-06-26T05:21:31.559063 #14637]  WARN -- : Unicorn::WorkerKiller send SIGQUIT (pid: 14637) alive: 614 sec (trial 1)
+I, [2018-06-26T05:21:31.993220 #581]  INFO -- : reaped #<Process::Status: pid 14637 exit 0> worker=1
+I, [2018-06-26T05:21:32.634834 #16047]  INFO -- : worker=1 ready
+W, [2018-06-26T05:30:46.228589 #16047]  WARN -- : #<Unicorn::HttpServer:0x00007ff8a2aec688>: worker (pid: 16047) exceeds memory limit (456253952.0 bytes > 420652025 bytes)
+W, [2018-06-26T05:30:46.229367 #16047]  WARN -- : Unicorn::WorkerKiller send SIGQUIT (pid: 16047) alive: 540 sec (trial 1)
+I, [2018-06-26T05:30:46.583893 #581]  INFO -- : reaped #<Process::Status: pid 16047 exit 0> worker=1
+I, [2018-06-26T05:30:46.940896 #17305]  INFO -- : worker=1 ready
+E, [2018-06-26T05:42:48.604251 #581] ERROR -- : worker=0 PID:862 timeout (63s > 60s), killing
+E, [2018-06-26T05:42:51.105047 #581] ERROR -- : reaped #<Process::Status: pid 862 SIGKILL (signal 9)> worker=0
+I, [2018-06-26T05:42:52.999103 #18862]  INFO -- : worker=0 ready
+D, [2018-06-26T07:17:27.404057 #581] DEBUG -- : waiting 31.0s after suspend/hibernation
+ArgumentError: Already running on PID:581 (or pid=/opt/gitlab/var/unicorn/unicorn.pid is stale)
+  /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:195:in `pid='
+  /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/unicorn-5.1.0/lib/unicorn/http_server.rb:127:in `start'
+  /opt/gitlab/embedded/lib/ruby/gems/2.3.0/gems/unicorn-5.1.0/bin/unicorn:126:in `<top (required)>'
+  /opt/gitlab/embedded/bin/unicorn:23:in `load'
+  /opt/gitlab/embedded/bin/unicorn:23:in `<top (required)>'
+I, [2018-06-26T07:24:11.310214 #630]  INFO -- : Refreshing Gem list
+I, [2018-06-26T10:01:08.407533 #686]  INFO -- : Refreshing Gem list
+I, [2018-06-26T10:06:06.271551 #686]  INFO -- : listening on addr=127.0.0.1:8080 fd=18
+I, [2018-06-26T10:06:06.276255 #686]  INFO -- : unlinking existing socket=/var/opt/gitlab/gitlab-rails/sockets/gitlab.socket
+I, [2018-06-26T10:06:06.280590 #686]  INFO -- : listening on addr=/var/opt/gitlab/gitlab-rails/sockets/gitlab.socket fd=19
+I, [2018-06-26T10:06:06.376623 #686]  INFO -- : master process ready
+I, [2018-06-26T10:06:07.230183 #1400]  INFO -- : worker=0 ready
+I, [2018-06-26T10:06:07.344312 #1406]  INFO -- : worker=2 ready
+I, [2018-06-26T10:06:07.456639 #1403]  INFO -- : worker=1 ready
+I, [2018-06-26T10:12:07.263155 #670]  INFO -- : Refreshing Gem list
+I, [2018-06-26T10:16:29.963037 #670]  INFO -- : listening on addr=127.0.0.1:8080 fd=18
+I, [2018-06-26T10:16:29.968838 #670]  INFO -- : unlinking existing socket=/var/opt/gitlab/gitlab-rails/sockets/gitlab.socket
+I, [2018-06-26T10:16:29.974512 #670]  INFO -- : listening on addr=/var/opt/gitlab/gitlab-rails/sockets/gitlab.socket fd=19
+I, [2018-06-26T10:16:30.053243 #670]  INFO -- : master process ready
+I, [2018-06-26T10:16:31.180100 #1354]  INFO -- : worker=0 ready
+I, [2018-06-26T10:16:31.514850 #1360]  INFO -- : worker=2 ready
+I, [2018-06-26T10:16:31.650435 #1357]  INFO -- : worker=1 ready
+W, [2018-06-26T10:24:11.871038 #1357]  WARN -- : #<Unicorn::HttpServer:0x00007fde21aec688>: worker (pid: 1357) exceeds memory limit (514978816.0 bytes > 419586275 bytes)
+W, [2018-06-26T10:24:11.871804 #1357]  WARN -- : Unicorn::WorkerKiller send SIGQUIT (pid: 1357) alive: 439 sec (trial 1)
+I, [2018-06-26T10:24:13.846625 #670]  INFO -- : reaped #<Process::Status: pid 1357 exit 0> worker=1
+I, [2018-06-26T10:24:15.027297 #2429]  INFO -- : worker=1 ready

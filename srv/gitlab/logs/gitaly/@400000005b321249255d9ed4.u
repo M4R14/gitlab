@@ -1,0 +1,153 @@
+2018-06-26_10:12:34.44630 time="2018-06-26T10:12:34Z" level=info msg="Starting Gitaly" version="Gitaly, version 0.100.1, built 20180606.211153"
+2018-06-26_10:12:34.44740 time="2018-06-26T10:12:34Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+2018-06-26_10:12:34.46847 time="2018-06-26T10:12:34Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+2018-06-26_10:12:40.26108 time="2018-06-26T10:12:40Z" level=info msg="finished tempdir cleaner walk" storage=default time_ms=6
+2018-06-26_10:12:40.26313 time="2018-06-26T10:12:40Z" level=info msg="listening on unix socket" address=/var/opt/gitlab/gitaly/gitaly.socket
+2018-06-26_10:12:40.26537 time="2018-06-26T10:12:40Z" level=info msg="Starting prometheus listener" address="localhost:9236"
+2018-06-26_10:12:40.27817 time="2018-06-26T10:12:40Z" level=warning msg=spawned supervisor.args="[bundle exec bin/ruby-cd /var/opt/gitlab/gitaly /opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby 708 /tmp/gitaly-ruby393386290/socket.0]" supervisor.name=gitaly-ruby.0 supervisor.pid=719
+2018-06-26_10:12:40.33118 time="2018-06-26T10:12:40Z" level=info msg="starting RSS monitor" supervisor.name=gitaly-ruby.0 supervisor.rss_threshold=314572800
+2018-06-26_10:12:40.34094 time="2018-06-26T10:12:40Z" level=warning msg=spawned supervisor.args="[bundle exec bin/ruby-cd /var/opt/gitlab/gitaly /opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby 708 /tmp/gitaly-ruby393386290/socket.1]" supervisor.name=gitaly-ruby.1 supervisor.pid=722
+2018-06-26_10:12:40.38235 time="2018-06-26T10:12:40Z" level=info msg="dialing to target with scheme: \"\"" system=system
+2018-06-26_10:12:40.38402 time="2018-06-26T10:12:40Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{/tmp/gitaly-ruby393386290/socket.0 0  <nil>}]" system=system
+2018-06-26_10:12:40.38625 time="2018-06-26T10:12:40Z" level=info msg="ClientConn switching balancer to \"pick_first\"" system=system
+2018-06-26_10:12:40.38674 time="2018-06-26T10:12:40Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc4202fd380, CONNECTING" system=system
+2018-06-26_10:12:40.39284 time="2018-06-26T10:12:40Z" level=info msg="starting RSS monitor" supervisor.name=gitaly-ruby.1 supervisor.rss_threshold=314572800
+2018-06-26_10:12:40.42164 time="2018-06-26T10:12:40Z" level=info msg="grpc: addrConn.createTransport failed to connect to {/tmp/gitaly-ruby393386290/socket.0 0  <nil>}. Err :connection error: desc = \"transport: Error while dialing dial unix /tmp/gitaly-ruby393386290/socket.0: connect: no such file or directory\". Reconnecting..." system=system
+2018-06-26_10:12:40.42985 time="2018-06-26T10:12:40Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc4202fd380, TRANSIENT_FAILURE" system=system
+2018-06-26_10:12:40.48637 time="2018-06-26T10:12:40Z" level=info msg="dialing to target with scheme: \"\"" system=system
+2018-06-26_10:12:40.48725 time="2018-06-26T10:12:40Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{/tmp/gitaly-ruby393386290/socket.1 0  <nil>}]" system=system
+2018-06-26_10:12:40.48898 time="2018-06-26T10:12:40Z" level=info msg="ClientConn switching balancer to \"pick_first\"" system=system
+2018-06-26_10:12:40.49206 time="2018-06-26T10:12:40Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc420199250, CONNECTING" system=system
+2018-06-26_10:12:40.49392 time="2018-06-26T10:12:40Z" level=info msg="grpc: addrConn.createTransport failed to connect to {/tmp/gitaly-ruby393386290/socket.1 0  <nil>}. Err :connection error: desc = \"transport: Error while dialing dial unix /tmp/gitaly-ruby393386290/socket.1: connect: no such file or directory\". Reconnecting..." system=system
+2018-06-26_10:12:40.49516 time="2018-06-26T10:12:40Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc420199250, TRANSIENT_FAILURE" system=system
+2018-06-26_10:12:40.49721 time="2018-06-26T10:12:40Z" level=info msg="Failed to dial /tmp/gitaly-ruby393386290/socket.1: context canceled; please retry." system=system
+2018-06-26_10:12:40.50475 time="2018-06-26T10:12:40Z" level=info msg="Failed to dial /tmp/gitaly-ruby393386290/socket.0: context canceled; please retry." system=system
+2018-06-26_10:12:55.48786 time="2018-06-26T10:12:55Z" level=info msg="dialing to target with scheme: \"\"" system=system
+2018-06-26_10:12:55.48989 time="2018-06-26T10:12:55Z" level=info msg="dialing to target with scheme: \"\"" system=system
+2018-06-26_10:12:55.49118 time="2018-06-26T10:12:55Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{/tmp/gitaly-ruby393386290/socket.1 0  <nil>}]" system=system
+2018-06-26_10:12:55.49191 time="2018-06-26T10:12:55Z" level=info msg="ClientConn switching balancer to \"pick_first\"" system=system
+2018-06-26_10:12:55.49269 time="2018-06-26T10:12:55Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{/tmp/gitaly-ruby393386290/socket.0 0  <nil>}]" system=system
+2018-06-26_10:12:55.49345 time="2018-06-26T10:12:55Z" level=info msg="ClientConn switching balancer to \"pick_first\"" system=system
+2018-06-26_10:12:55.49421 time="2018-06-26T10:12:55Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc42026c2e0, CONNECTING" system=system
+2018-06-26_10:12:55.49528 time="2018-06-26T10:12:55Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc420199840, CONNECTING" system=system
+2018-06-26_10:12:55.49598 time="2018-06-26T10:12:55Z" level=info msg="grpc: addrConn.createTransport failed to connect to {/tmp/gitaly-ruby393386290/socket.0 0  <nil>}. Err :connection error: desc = \"transport: Error while dialing dial unix /tmp/gitaly-ruby393386290/socket.0: connect: no such file or directory\". Reconnecting..." system=system
+2018-06-26_10:12:55.49731 time="2018-06-26T10:12:55Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc420199840, TRANSIENT_FAILURE" system=system
+2018-06-26_10:12:55.49798 time="2018-06-26T10:12:55Z" level=info msg="Failed to dial /tmp/gitaly-ruby393386290/socket.0: context canceled; please retry." system=system
+2018-06-26_10:12:55.49909 time="2018-06-26T10:12:55Z" level=info msg="grpc: addrConn.createTransport failed to connect to {/tmp/gitaly-ruby393386290/socket.1 0  <nil>}. Err :connection error: desc = \"transport: Error while dialing dial unix /tmp/gitaly-ruby393386290/socket.1: connect: no such file or directory\". Reconnecting..." system=system
+2018-06-26_10:12:55.50044 time="2018-06-26T10:12:55Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc42026c2e0, TRANSIENT_FAILURE" system=system
+2018-06-26_10:12:55.50119 time="2018-06-26T10:12:55Z" level=info msg="Failed to dial /tmp/gitaly-ruby393386290/socket.1: context canceled; please retry." system=system
+2018-06-26_10:13:10.46460 time="2018-06-26T10:13:10Z" level=info msg="dialing to target with scheme: \"\"" system=system
+2018-06-26_10:13:10.46637 time="2018-06-26T10:13:10Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{/tmp/gitaly-ruby393386290/socket.0 0  <nil>}]" system=system
+2018-06-26_10:13:10.46723 time="2018-06-26T10:13:10Z" level=info msg="ClientConn switching balancer to \"pick_first\"" system=system
+2018-06-26_10:13:10.46779 time="2018-06-26T10:13:10Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc420199d90, CONNECTING" system=system
+2018-06-26_10:13:10.46956 time="2018-06-26T10:13:10Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc420199d90, READY" system=system
+2018-06-26_10:13:10.47053 time="2018-06-26T10:13:10Z" level=info msg="dialing to target with scheme: \"\"" system=system
+2018-06-26_10:13:10.47111 time="2018-06-26T10:13:10Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{/tmp/gitaly-ruby393386290/socket.1 0  <nil>}]" system=system
+2018-06-26_10:13:10.47282 time="2018-06-26T10:13:10Z" level=info msg="ClientConn switching balancer to \"pick_first\"" system=system
+2018-06-26_10:13:10.47361 time="2018-06-26T10:13:10Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc42026c740, CONNECTING" system=system
+2018-06-26_10:13:10.47487 time="2018-06-26T10:13:10Z" level=info msg="blockingPicker: the picked transport is not ready, loop back to repick" system=system
+2018-06-26_10:13:10.47728 time="2018-06-26T10:13:10Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc42026c740, READY" system=system
+2018-06-26_10:13:25.47607 time="2018-06-26T10:13:25Z" level=info msg="dialing to target with scheme: \"\"" system=system
+2018-06-26_10:13:25.47753 time="2018-06-26T10:13:25Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{/tmp/gitaly-ruby393386290/socket.0 0  <nil>}]" system=system
+2018-06-26_10:13:25.47921 time="2018-06-26T10:13:25Z" level=info msg="ClientConn switching balancer to \"pick_first\"" system=system
+2018-06-26_10:13:25.48018 time="2018-06-26T10:13:25Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc4204f41b0, CONNECTING" system=system
+2018-06-26_10:13:25.48146 time="2018-06-26T10:13:25Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc4204f41b0, READY" system=system
+2018-06-26_10:13:25.48680 time="2018-06-26T10:13:25Z" level=info msg="dialing to target with scheme: \"\"" system=system
+2018-06-26_10:13:25.48782 time="2018-06-26T10:13:25Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{/tmp/gitaly-ruby393386290/socket.1 0  <nil>}]" system=system
+2018-06-26_10:13:25.49311 time="2018-06-26T10:13:25Z" level=info msg="ClientConn switching balancer to \"pick_first\"" system=system
+2018-06-26_10:13:25.49449 time="2018-06-26T10:13:25Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc42026cc70, CONNECTING" system=system
+2018-06-26_10:13:25.49554 time="2018-06-26T10:13:25Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc42026cc70, READY" system=system
+2018-06-26_10:13:40.45348 time="2018-06-26T10:13:40Z" level=info msg="dialing to target with scheme: \"\"" system=system
+2018-06-26_10:13:40.45468 time="2018-06-26T10:13:40Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{/tmp/gitaly-ruby393386290/socket.0 0  <nil>}]" system=system
+2018-06-26_10:13:40.45568 time="2018-06-26T10:13:40Z" level=info msg="ClientConn switching balancer to \"pick_first\"" system=system
+2018-06-26_10:13:40.45635 time="2018-06-26T10:13:40Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc420199130, CONNECTING" system=system
+2018-06-26_10:13:40.45701 time="2018-06-26T10:13:40Z" level=info msg="blockingPicker: the picked transport is not ready, loop back to repick" system=system
+2018-06-26_10:13:40.45805 time="2018-06-26T10:13:40Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc420199130, READY" system=system
+2018-06-26_10:13:40.47575 time="2018-06-26T10:13:40Z" level=info msg="dialing to target with scheme: \"\"" system=system
+2018-06-26_10:13:40.47695 time="2018-06-26T10:13:40Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{/tmp/gitaly-ruby393386290/socket.1 0  <nil>}]" system=system
+2018-06-26_10:13:40.47747 time="2018-06-26T10:13:40Z" level=info msg="ClientConn switching balancer to \"pick_first\"" system=system
+2018-06-26_10:13:40.47796 time="2018-06-26T10:13:40Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc4204f4260, CONNECTING" system=system
+2018-06-26_10:13:40.47837 time="2018-06-26T10:13:40Z" level=info msg="blockingPicker: the picked transport is not ready, loop back to repick" system=system
+2018-06-26_10:13:40.47878 time="2018-06-26T10:13:40Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc4204f4260, READY" system=system
+2018-06-26_10:13:55.46487 time="2018-06-26T10:13:55Z" level=info msg="dialing to target with scheme: \"\"" system=system
+2018-06-26_10:13:55.46601 time="2018-06-26T10:13:55Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{/tmp/gitaly-ruby393386290/socket.0 0  <nil>}]" system=system
+2018-06-26_10:13:55.46693 time="2018-06-26T10:13:55Z" level=info msg="ClientConn switching balancer to \"pick_first\"" system=system
+2018-06-26_10:13:55.46794 time="2018-06-26T10:13:55Z" level=info msg="blockingPicker: the picked transport is not ready, loop back to repick" system=system
+2018-06-26_10:13:55.46873 time="2018-06-26T10:13:55Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc4201996c0, CONNECTING" system=system
+2018-06-26_10:13:55.46961 time="2018-06-26T10:13:55Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc4201996c0, READY" system=system
+2018-06-26_10:13:55.49099 time="2018-06-26T10:13:55Z" level=info msg="dialing to target with scheme: \"\"" system=system
+2018-06-26_10:13:55.49240 time="2018-06-26T10:13:55Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{/tmp/gitaly-ruby393386290/socket.1 0  <nil>}]" system=system
+2018-06-26_10:13:55.49318 time="2018-06-26T10:13:55Z" level=info msg="ClientConn switching balancer to \"pick_first\"" system=system
+2018-06-26_10:13:55.49417 time="2018-06-26T10:13:55Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc4204f42d0, CONNECTING" system=system
+2018-06-26_10:13:55.49492 time="2018-06-26T10:13:55Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc4204f42d0, READY" system=system
+2018-06-26_10:14:10.44016 time="2018-06-26T10:14:10Z" level=info msg="dialing to target with scheme: \"\"" system=system
+2018-06-26_10:14:10.44121 time="2018-06-26T10:14:10Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{/tmp/gitaly-ruby393386290/socket.0 0  <nil>}]" system=system
+2018-06-26_10:14:10.44149 time="2018-06-26T10:14:10Z" level=info msg="ClientConn switching balancer to \"pick_first\"" system=system
+2018-06-26_10:14:10.44201 time="2018-06-26T10:14:10Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc4201990a0, CONNECTING" system=system
+2018-06-26_10:14:10.44274 time="2018-06-26T10:14:10Z" level=info msg="blockingPicker: the picked transport is not ready, loop back to repick" system=system
+2018-06-26_10:14:10.44374 time="2018-06-26T10:14:10Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc4201990a0, READY" system=system
+2018-06-26_10:14:10.46933 time="2018-06-26T10:14:10Z" level=info msg="dialing to target with scheme: \"\"" system=system
+2018-06-26_10:14:10.47076 time="2018-06-26T10:14:10Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{/tmp/gitaly-ruby393386290/socket.1 0  <nil>}]" system=system
+2018-06-26_10:14:10.47123 time="2018-06-26T10:14:10Z" level=info msg="ClientConn switching balancer to \"pick_first\"" system=system
+2018-06-26_10:14:10.47168 time="2018-06-26T10:14:10Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc4201994a0, CONNECTING" system=system
+2018-06-26_10:14:10.47211 time="2018-06-26T10:14:10Z" level=info msg="blockingPicker: the picked transport is not ready, loop back to repick" system=system
+2018-06-26_10:14:10.47258 time="2018-06-26T10:14:10Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc4201994a0, READY" system=system
+2018-06-26_10:14:25.44853 time="2018-06-26T10:14:25Z" level=info msg="dialing to target with scheme: \"\"" system=system
+2018-06-26_10:14:25.45186 time="2018-06-26T10:14:25Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{/tmp/gitaly-ruby393386290/socket.0 0  <nil>}]" system=system
+2018-06-26_10:14:25.45229 time="2018-06-26T10:14:25Z" level=info msg="ClientConn switching balancer to \"pick_first\"" system=system
+2018-06-26_10:14:25.45284 time="2018-06-26T10:14:25Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc420199e80, CONNECTING" system=system
+2018-06-26_10:14:25.45505 time="2018-06-26T10:14:25Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc420199e80, READY" system=system
+2018-06-26_10:14:25.47776 time="2018-06-26T10:14:25Z" level=info msg="dialing to target with scheme: \"\"" system=system
+2018-06-26_10:14:25.47907 time="2018-06-26T10:14:25Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{/tmp/gitaly-ruby393386290/socket.1 0  <nil>}]" system=system
+2018-06-26_10:14:25.48039 time="2018-06-26T10:14:25Z" level=info msg="ClientConn switching balancer to \"pick_first\"" system=system
+2018-06-26_10:14:25.48358 time="2018-06-26T10:14:25Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc42026c330, CONNECTING" system=system
+2018-06-26_10:14:25.48557 time="2018-06-26T10:14:25Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc42026c330, READY" system=system
+2018-06-26_10:14:40.43274 time="2018-06-26T10:14:40Z" level=info msg="dialing to target with scheme: \"\"" system=system
+2018-06-26_10:14:40.43551 time="2018-06-26T10:14:40Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{/tmp/gitaly-ruby393386290/socket.0 0  <nil>}]" system=system
+2018-06-26_10:14:40.43615 time="2018-06-26T10:14:40Z" level=info msg="ClientConn switching balancer to \"pick_first\"" system=system
+2018-06-26_10:14:40.43677 time="2018-06-26T10:14:40Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc42026c3a0, CONNECTING" system=system
+2018-06-26_10:14:40.43718 time="2018-06-26T10:14:40Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc42026c3a0, READY" system=system
+2018-06-26_10:14:40.45488 time="2018-06-26T10:14:40Z" level=info msg="dialing to target with scheme: \"\"" system=system
+2018-06-26_10:14:40.45568 time="2018-06-26T10:14:40Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{/tmp/gitaly-ruby393386290/socket.1 0  <nil>}]" system=system
+2018-06-26_10:14:40.45722 time="2018-06-26T10:14:40Z" level=info msg="ClientConn switching balancer to \"pick_first\"" system=system
+2018-06-26_10:14:40.46029 time="2018-06-26T10:14:40Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc4201990e0, CONNECTING" system=system
+2018-06-26_10:14:40.46103 time="2018-06-26T10:14:40Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc4201990e0, READY" system=system
+2018-06-26_10:14:40.46595 time="2018-06-26T10:14:40Z" level=info msg="grpc: addrConn.transportMonitor exits due to: context canceled" system=system
+2018-06-26_10:14:55.58944 time="2018-06-26T10:14:55Z" level=info msg="dialing to target with scheme: \"\"" system=system
+2018-06-26_10:14:55.59244 time="2018-06-26T10:14:55Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{/tmp/gitaly-ruby393386290/socket.1 0  <nil>}]" system=system
+2018-06-26_10:14:55.59349 time="2018-06-26T10:14:55Z" level=info msg="ClientConn switching balancer to \"pick_first\"" system=system
+2018-06-26_10:14:55.59434 time="2018-06-26T10:14:55Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc42026ce60, CONNECTING" system=system
+2018-06-26_10:14:55.59503 time="2018-06-26T10:14:55Z" level=info msg="dialing to target with scheme: \"\"" system=system
+2018-06-26_10:14:55.59559 time="2018-06-26T10:14:55Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{/tmp/gitaly-ruby393386290/socket.0 0  <nil>}]" system=system
+2018-06-26_10:14:55.59702 time="2018-06-26T10:14:55Z" level=info msg="ClientConn switching balancer to \"pick_first\"" system=system
+2018-06-26_10:14:55.59845 time="2018-06-26T10:14:55Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc42026d170, CONNECTING" system=system
+2018-06-26_10:14:55.60076 time="2018-06-26T10:14:55Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc42026d170, READY" system=system
+2018-06-26_10:14:55.62887 time="2018-06-26T10:14:55Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc42026ce60, READY" system=system
+2018-06-26_10:15:10.60522 time="2018-06-26T10:15:10Z" level=info msg="dialing to target with scheme: \"\"" system=system
+2018-06-26_10:15:10.60637 time="2018-06-26T10:15:10Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{/tmp/gitaly-ruby393386290/socket.0 0  <nil>}]" system=system
+2018-06-26_10:15:10.60726 time="2018-06-26T10:15:10Z" level=info msg="ClientConn switching balancer to \"pick_first\"" system=system
+2018-06-26_10:15:10.60780 time="2018-06-26T10:15:10Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc42026c1a0, CONNECTING" system=system
+2018-06-26_10:15:10.60995 time="2018-06-26T10:15:10Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc42026c1a0, READY" system=system
+2018-06-26_10:15:10.66206 time="2018-06-26T10:15:10Z" level=info msg="dialing to target with scheme: \"\"" system=system
+2018-06-26_10:15:10.66273 time="2018-06-26T10:15:10Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{/tmp/gitaly-ruby393386290/socket.1 0  <nil>}]" system=system
+2018-06-26_10:15:10.66370 time="2018-06-26T10:15:10Z" level=info msg="ClientConn switching balancer to \"pick_first\"" system=system
+2018-06-26_10:15:10.66508 time="2018-06-26T10:15:10Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc42026c4a0, CONNECTING" system=system
+2018-06-26_10:15:10.66597 time="2018-06-26T10:15:10Z" level=info msg="blockingPicker: the picked transport is not ready, loop back to repick" system=system
+2018-06-26_10:15:10.66807 time="2018-06-26T10:15:10Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc42026c4a0, READY" system=system
+2018-06-26_10:15:25.61622 time="2018-06-26T10:15:25Z" level=info msg="dialing to target with scheme: \"\"" system=system
+2018-06-26_10:15:25.61770 time="2018-06-26T10:15:25Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{/tmp/gitaly-ruby393386290/socket.0 0  <nil>}]" system=system
+2018-06-26_10:15:25.61820 time="2018-06-26T10:15:25Z" level=info msg="ClientConn switching balancer to \"pick_first\"" system=system
+2018-06-26_10:15:25.61896 time="2018-06-26T10:15:25Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc420199ed0, CONNECTING" system=system
+2018-06-26_10:15:25.62131 time="2018-06-26T10:15:25Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc420199ed0, READY" system=system
+2018-06-26_10:15:25.70632 time="2018-06-26T10:15:25Z" level=info msg="dialing to target with scheme: \"\"" system=system
+2018-06-26_10:15:25.70705 time="2018-06-26T10:15:25Z" level=info msg="ccResolverWrapper: sending new addresses to cc: [{/tmp/gitaly-ruby393386290/socket.1 0  <nil>}]" system=system
+2018-06-26_10:15:25.70890 time="2018-06-26T10:15:25Z" level=info msg="ClientConn switching balancer to \"pick_first\"" system=system
+2018-06-26_10:15:25.70979 time="2018-06-26T10:15:25Z" level=info msg="blockingPicker: the picked transport is not ready, loop back to repick" system=system
+2018-06-26_10:15:25.71046 time="2018-06-26T10:15:25Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc4204f42a0, CONNECTING" system=system
+2018-06-26_10:15:25.71108 time="2018-06-26T10:15:25Z" level=info msg="pickfirstBalancer: HandleSubConnStateChange: 0xc4204f42a0, READY" system=system
+2018-06-26_10:15:27.16406 time="2018-06-26T10:15:27Z" level=warning msg=exited error="signal: killed" supervisor.args="[bundle exec bin/ruby-cd /var/opt/gitlab/gitaly /opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby 708 /tmp/gitaly-ruby393386290/socket.0]" supervisor.name=gitaly-ruby.0
+2018-06-26_10:15:27.22401 time="2018-06-26T10:15:27Z" level=warning msg=exited error="signal: killed" supervisor.args="[bundle exec bin/ruby-cd /var/opt/gitlab/gitaly /opt/gitlab/embedded/service/gitaly-ruby/bin/gitaly-ruby 708 /tmp/gitaly-ruby393386290/socket.1]" supervisor.name=gitaly-ruby.1
+2018-06-26_10:15:27.22449 time="2018-06-26T10:15:27Z" level=fatal msg="shutting down" error="received signal \"terminated\""
+2018-06-26_10:15:27.40830 time="2018-06-26T10:15:27Z" level=info msg="Starting Gitaly" version="Gitaly, version 0.100.1, built 20180606.211153"
+2018-06-26_10:15:27.40932 time="2018-06-26T10:15:27Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git
+2018-06-26_10:15:27.43138 time="2018-06-26T10:15:27Z" level=warning msg="git path not configured. Using default path resolution" resolvedPath=/opt/gitlab/embedded/bin/git

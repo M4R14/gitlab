@@ -1,0 +1,7 @@
+2018-06-26_07:23:46.80474 LOG:  database system was interrupted; last known up at 2018-06-26 03:28:41 GMT
+2018-06-26_07:24:07.62341 LOG:  database system was not properly shut down; automatic recovery in progress
+2018-06-26_07:24:07.84681 LOG:  invalid record length at 0/1BE7E00: wanted 24, got 0
+2018-06-26_07:24:07.84742 LOG:  redo is not required
+2018-06-26_07:24:08.48578 LOG:  MultiXact member wraparound protections are now enabled
+2018-06-26_07:24:08.50378 LOG:  database system is ready to accept connections
+2018-06-26_07:24:08.51941 LOG:  autovacuum launcher started

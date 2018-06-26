@@ -1,0 +1,23 @@
+2018-06-26_10:00:44.05843 FATAL:  the database system is starting up
+2018-06-26_10:00:44.06690 LOG:  database system was interrupted; last known up at 2018-06-26 07:24:08 GMT
+2018-06-26_10:00:44.18690 FATAL:  the database system is starting up
+2018-06-26_10:00:44.25263 FATAL:  the database system is starting up
+2018-06-26_10:00:46.33151 FATAL:  the database system is starting up
+2018-06-26_10:00:46.41306 FATAL:  the database system is starting up
+2018-06-26_10:00:48.48550 FATAL:  the database system is starting up
+2018-06-26_10:00:48.56514 FATAL:  the database system is starting up
+2018-06-26_10:00:50.64277 FATAL:  the database system is starting up
+2018-06-26_10:00:50.71048 FATAL:  the database system is starting up
+2018-06-26_10:00:52.81278 FATAL:  the database system is starting up
+2018-06-26_10:00:52.88335 FATAL:  the database system is starting up
+2018-06-26_10:00:54.97769 FATAL:  the database system is starting up
+2018-06-26_10:00:55.05241 FATAL:  the database system is starting up
+2018-06-26_10:00:57.12355 LOG:  database system was not properly shut down; automatic recovery in progress
+2018-06-26_10:00:57.13356 FATAL:  the database system is starting up
+2018-06-26_10:00:57.19344 FATAL:  the database system is starting up
+2018-06-26_10:00:57.40066 LOG:  invalid record length at 0/1BE7E70: wanted 24, got 0
+2018-06-26_10:00:57.40143 LOG:  redo is not required
+2018-06-26_10:00:58.09565 LOG:  MultiXact member wraparound protections are now enabled
+2018-06-26_10:00:58.10487 LOG:  database system is ready to accept connections
+2018-06-26_10:00:58.10611 LOG:  autovacuum launcher started
+2018-06-26_10:03:28.52015 LOG:  stats_timestamp 2018-06-26 10:03:28.522675+00 is later than collector's time 2018-06-26 10:03:28.518516+00 for database 12405

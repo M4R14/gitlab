@@ -1,0 +1,38 @@
+2018-06-25_11:35:34.06486 LOG:  database system was interrupted; last known up at 2018-06-25 11:30:39 GMT
+2018-06-25_11:35:34.35065 FATAL:  the database system is starting up
+2018-06-25_11:35:34.51768 FATAL:  the database system is starting up
+2018-06-25_11:35:34.58011 FATAL:  the database system is starting up
+2018-06-25_11:35:36.65952 FATAL:  the database system is starting up
+2018-06-25_11:35:36.69613 FATAL:  the database system is starting up
+2018-06-25_11:35:38.76247 FATAL:  the database system is starting up
+2018-06-25_11:35:38.81175 FATAL:  the database system is starting up
+2018-06-25_11:35:40.39822 LOG:  database system was not properly shut down; automatic recovery in progress
+2018-06-25_11:35:40.50077 LOG:  redo starts at 0/14EEBB8
+2018-06-25_11:35:40.87956 FATAL:  the database system is starting up
+2018-06-25_11:35:40.95326 FATAL:  the database system is starting up
+2018-06-25_11:35:43.01679 FATAL:  the database system is starting up
+2018-06-25_11:35:43.06115 FATAL:  the database system is starting up
+2018-06-25_11:35:45.15186 FATAL:  the database system is starting up
+2018-06-25_11:35:45.19639 FATAL:  the database system is starting up
+2018-06-25_11:35:47.27285 FATAL:  the database system is starting up
+2018-06-25_11:35:47.31973 FATAL:  the database system is starting up
+2018-06-25_11:35:49.37585 FATAL:  the database system is starting up
+2018-06-25_11:35:49.42590 FATAL:  the database system is starting up
+2018-06-25_11:35:51.47079 FATAL:  the database system is starting up
+2018-06-25_11:35:51.52728 FATAL:  the database system is starting up
+2018-06-25_11:35:53.59572 FATAL:  the database system is starting up
+2018-06-25_11:35:53.63660 FATAL:  the database system is starting up
+2018-06-25_11:35:55.70108 FATAL:  the database system is starting up
+2018-06-25_11:35:55.74230 FATAL:  the database system is starting up
+2018-06-25_11:35:57.80918 FATAL:  the database system is starting up
+2018-06-25_11:35:57.84816 FATAL:  the database system is starting up
+2018-06-25_11:35:59.89977 FATAL:  the database system is starting up
+2018-06-25_11:35:59.95384 FATAL:  the database system is starting up
+2018-06-25_11:36:01.98443 FATAL:  the database system is starting up
+2018-06-25_11:36:02.03200 FATAL:  the database system is starting up
+2018-06-25_11:36:03.33290 LOG:  invalid record length at 0/1BD16C8: wanted 24, got 0
+2018-06-25_11:36:03.33319 LOG:  redo done at 0/1BD15E8
+2018-06-25_11:36:03.33356 LOG:  last completed transaction was at log time 2018-06-25 11:31:48.488606+00
+2018-06-25_11:36:03.69203 LOG:  MultiXact member wraparound protections are now enabled
+2018-06-25_11:36:03.95525 LOG:  database system is ready to accept connections
+2018-06-25_11:36:03.95936 LOG:  autovacuum launcher started

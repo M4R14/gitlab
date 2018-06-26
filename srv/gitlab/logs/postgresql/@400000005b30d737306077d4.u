@@ -1,0 +1,11 @@
+2018-06-25_11:49:37.77719 received TERM from runit, sending INT instead to force quit connections
+2018-06-25_11:49:37.77860 LOG:  received fast shutdown request
+2018-06-25_11:49:37.79264 LOG:  aborting any active transactions
+2018-06-25_11:49:37.79375 FATAL:  terminating connection due to administrator command
+2018-06-25_11:49:37.79485 LOG:  autovacuum launcher shutting down
+2018-06-25_11:49:37.79560 FATAL:  terminating connection due to administrator command
+2018-06-25_11:49:37.79691 FATAL:  terminating connection due to administrator command
+2018-06-25_11:49:37.79775 FATAL:  terminating connection due to administrator command
+2018-06-25_11:49:37.79865 FATAL:  terminating connection due to administrator command
+2018-06-25_11:49:38.03271 LOG:  shutting down
+2018-06-25_11:49:38.09141 LOG:  database system is shut down

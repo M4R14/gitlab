@@ -1,0 +1,2 @@
+2018-06-26_10:04:37.84715 LOG:  could not send data to client: Broken pipe
+2018-06-26_10:04:37.84888 FATAL:  connection to client lost

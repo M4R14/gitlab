@@ -1,0 +1,17 @@
+2018-06-25_11:40:28.09827 419:M 25 Jun 11:40:28.097 * 10 changes in 300 seconds. Saving...
+2018-06-25_11:40:28.09994 419:M 25 Jun 11:40:28.098 * Background saving started by pid 1689
+2018-06-25_11:40:28.10562 1689:C 25 Jun 11:40:28.105 * DB saved on disk
+2018-06-25_11:40:28.10611 1689:C 25 Jun 11:40:28.105 * RDB: 0 MB of memory used by copy-on-write
+2018-06-25_11:40:28.19975 419:M 25 Jun 11:40:28.199 * Background saving terminated with success
+2018-06-25_11:45:29.08237 419:M 25 Jun 11:45:29.080 * 10 changes in 300 seconds. Saving...
+2018-06-25_11:45:29.09355 419:M 25 Jun 11:45:29.082 * Background saving started by pid 2395
+2018-06-25_11:45:29.09880 2395:C 25 Jun 11:45:29.098 * DB saved on disk
+2018-06-25_11:45:29.09927 2395:C 25 Jun 11:45:29.099 * RDB: 1 MB of memory used by copy-on-write
+2018-06-25_11:45:29.18346 419:M 25 Jun 11:45:29.183 * Background saving terminated with success
+2018-06-25_11:49:38.64255 419:signal-handler (1529927378) Received SIGTERM scheduling shutdown...
+2018-06-25_11:49:38.70950 419:M 25 Jun 11:49:38.709 # User requested shutdown...
+2018-06-25_11:49:38.71137 419:M 25 Jun 11:49:38.709 * Saving the final RDB snapshot before exiting.
+2018-06-25_11:49:38.71735 419:M 25 Jun 11:49:38.717 * DB saved on disk
+2018-06-25_11:49:38.71787 419:M 25 Jun 11:49:38.717 * Removing the pid file.
+2018-06-25_11:49:38.71827 419:M 25 Jun 11:49:38.717 * Removing the unix socket file.
+2018-06-25_11:49:38.71902 419:M 25 Jun 11:49:38.718 # Redis is now ready to exit, bye bye...
