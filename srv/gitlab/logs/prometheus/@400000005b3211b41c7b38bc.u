@@ -1,2 +1,0 @@
-2018-06-26_10:07:23.33753 time="2018-06-26T10:07:23Z" level=info msg="Checkpointing in-memory metrics and chunks..." source="persistence.go:633" 
-2018-06-26_10:07:25.78620 time="2018-06-26T10:07:25Z" level=info msg="Done checkpointing in-memory metrics and chunks in 2.4434411s." source="persistence.go:665" 

@@ -1,5 +1,0 @@
-2018-06-26_10:05:38.09522 424:M 26 Jun 10:05:38.094 * 10 changes in 300 seconds. Saving...
-2018-06-26_10:05:38.09730 424:M 26 Jun 10:05:38.096 * Background saving started by pid 1335
-2018-06-26_10:05:38.14269 1335:C 26 Jun 10:05:38.140 * DB saved on disk
-2018-06-26_10:05:38.14469 1335:C 26 Jun 10:05:38.144 * RDB: 0 MB of memory used by copy-on-write
-2018-06-26_10:05:38.19815 424:M 26 Jun 10:05:38.197 * Background saving terminated with success

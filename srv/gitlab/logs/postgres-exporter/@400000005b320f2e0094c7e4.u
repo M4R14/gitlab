@@ -1,4 +1,0 @@
-2018-06-26_07:23:46.23925 time="2018-06-26T07:23:46Z" level=info msg="Error opening connection to database (user=gitlab-psql%20host=/var/opt/gitlab/postgresql%20database=postgres%20sslmode=allow): dial unix /var/opt/gitlab/postgresql/.s.PGSQL.5432: connect: connection refused" source="postgres_exporter.go:1012"
-2018-06-26_07:23:46.23987 time="2018-06-26T07:23:46Z" level=info msg="Starting Server: localhost:9187" source="postgres_exporter.go:1114"
-2018-06-26_07:24:23.09357 time="2018-06-26T07:24:23Z" level=info msg="Established new database connection." source="postgres_exporter.go:986"
-2018-06-26_07:24:23.10544 time="2018-06-26T07:24:23Z" level=info msg="Semantic Version Changed: 0.0.0 -> 9.6.8" source="postgres_exporter.go:919"
